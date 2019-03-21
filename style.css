@@ -8,6 +8,7 @@ body{
   background-color: #cecece;
 }
 
+/* Struttura colonne */
 .column{
   float: left;
   margin: 30px;
@@ -23,7 +24,6 @@ body{
   width: 55%;
   padding: 40px 35px 5px;
 }
-
 
 /* CONTENUTO PRIMA COLONNA */
 #artista{
@@ -64,7 +64,7 @@ body{
 .riquadro2{
   border-top: 10px solid #cecece;
   padding-top: 5px;
-  
+
 }
 .riquadro2 img{
   width: 50px;
@@ -105,4 +105,20 @@ h2{
 }
 .noborder{
   border: 0;
+}
+
+/* Descrizione e contenuto footer */
+footer{
+  clear: left;
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px;
+  height: 150px;
+  padding: 30px;
+}
+footer h3{
+  font-style: italic;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+  margin-top: 5px;
 }
