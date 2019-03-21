@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #cecece;
+}
+
+.column{
+  float: left;
+  margin: 30px;
+
+  background-color: white;
+}
+.column1{
+  width: 35%;
+  margin-left: 30px;
+  padding-top: 2%;
+}
+.column2{
+  width: 55%;
+}
+
+
+/* CONTENUTO PRIMA COLONNA */
+#artista{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#nomeartista{
+  margin-top: 5px;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+#descrizioneartista{
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.button{
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  font-family: cursive;
+  height: 35px;
+  width: 100px;
+  position: relative;
+  left: 50%;
+  transform: translate(-65%,0);
+  margin: 15px;
+}
+
+.riquadro2{
+  border-top: 10px solid #cecece;
+}
+.riquadro2 img{
+  width: 50px;
+  height: 50px;
+}
+.icon{
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  left: 20%;
+}
